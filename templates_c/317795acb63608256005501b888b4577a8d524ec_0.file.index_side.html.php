@@ -1,17 +1,17 @@
 <?php
-/* Smarty version 3.1.29, created on 2020-11-04 06:01:44
+/* Smarty version 3.1.29, created on 2020-11-10 07:08:42
   from "C:\UniServerZ\www\https---github.com-koronemiku-1234\templates\index_side.html" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.29',
-  'unifunc' => 'content_5fa243c868b2d6_84388759',
+  'unifunc' => 'content_5faa3c7a08a4d1_14064311',
   'file_dependency' => 
   array (
     '317795acb63608256005501b888b4577a8d524ec' => 
     array (
       0 => 'C:\\UniServerZ\\www\\https---github.com-koronemiku-1234\\templates\\index_side.html',
-      1 => 1604469687,
+      1 => 1604992104,
       2 => 'file',
     ),
   ),
@@ -22,10 +22,10 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
     'file:side_cart.html' => 1,
   ),
 ),false)) {
-function content_5fa243c868b2d6_84388759 ($_smarty_tpl) {
+function content_5faa3c7a08a4d1_14064311 ($_smarty_tpl) {
 ?>
 <div class="panel panel-primary">
-  <div class="panel-heading">功能表</div>
+  <div ;class ="panel-heading"><h3 style="text-align:center">目錄</h3></div>
   <div class="panel-body">
     <?php if ($_smarty_tpl->tpl_vars['isUser']->value) {?>
       <?php $_smarty_tpl->smarty->ext->_subtemplate->render($_smarty_tpl, "file:side_tools.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);

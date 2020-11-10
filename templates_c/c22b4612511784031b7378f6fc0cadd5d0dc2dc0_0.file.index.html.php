@@ -1,17 +1,17 @@
 <?php
-/* Smarty version 3.1.29, created on 2020-11-04 06:01:44
+/* Smarty version 3.1.29, created on 2020-11-10 06:58:16
   from "C:\UniServerZ\www\https---github.com-koronemiku-1234\templates\index.html" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.29',
-  'unifunc' => 'content_5fa243c8012a09_46118572',
+  'unifunc' => 'content_5faa3a088616f0_19153433',
   'file_dependency' => 
   array (
     'c22b4612511784031b7378f6fc0cadd5d0dc2dc0' => 
     array (
       0 => 'C:\\UniServerZ\\www\\https---github.com-koronemiku-1234\\templates\\index.html',
-      1 => 1604469687,
+      1 => 1604991491,
       2 => 'file',
     ),
   ),
@@ -28,7 +28,7 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
     'file:index_side.html' => 1,
   ),
 ),false)) {
-function content_5fa243c8012a09_46118572 ($_smarty_tpl) {
+function content_5faa3a088616f0_19153433 ($_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="zh-Hant">
@@ -56,6 +56,16 @@ function content_5fa243c8012a09_46118572 ($_smarty_tpl) {
 >
     <?php echo '<script'; ?>
  src="bootstrap/js/bootstrap.min.js"><?php echo '</script'; ?>
+>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <?php echo '<script'; ?>
+ src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"><?php echo '</script'; ?>
+>
+  <?php echo '<script'; ?>
+ src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"><?php echo '</script'; ?>
+>
+  <?php echo '<script'; ?>
+ src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"><?php echo '</script'; ?>
 >
   </head>
   <body>
@@ -115,7 +125,7 @@ function content_5fa243c8012a09_46118572 ($_smarty_tpl) {
       </div>
 
       <div id="shop_foot" >
-        <div>地址：XX市XX區XX路XX巷XX號</div>
+        <div><h2>SUZUKI</h2></div>
         <div>電話：(06)2345678</div>
         <div>版權所有 copyright © 2016 tad0616.net. All Rights Reserved. </div>
       </div>
