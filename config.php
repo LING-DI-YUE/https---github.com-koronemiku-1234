@@ -6,6 +6,7 @@ define('_DB_PW', '123456');
 define('_DB_NAME', 'mini_shop');
 define('_UPLOAD_PATH', 'C:/UniServerZ/www/mini_shop/uploads/');
 define('_UPLOAD_URL', 'http://localhost/mini_shop:3333/uploads/');
+11111
 
 $admin_array = ['korone'];
 // error_reporting(0);
